@@ -1,0 +1,265 @@
+
+*{
+    font-family: "Segoe UI", "Microsoft JhengHei Light", serif;
+    background-color: #0e1010;
+    margin:0;
+    padding:0;
+}
+
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.BigPicture{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+
+.fade-in-section{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.BPcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: transparent;
+}
+
+
+
+
+.buttonee{
+    font-size:24px;
+    border-radius:15px;
+    color:white;
+    border: 3px solid white;
+    padding: 15px;
+    background-blend-mode: color;
+    background-color: transparent;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font-family: "Segoe UI Light", "Microsoft JhengHei Light", serif;
+}
+
+.buttonee:hover{
+    background-color: #817cff;
+
+}
+
+.divider{
+    width:250px;
+    display:inline-block;
+    background-color: transparent;
+}
+
+.divider2{
+    width:10px;
+    display:inline-block;
+    background-color: transparent;
+}
+
+.divider3{
+    width:0%;
+    display:block;
+    font-size: 15px;
+    color: transparent;
+    background-color: transparent;
+}
+
+.headerz{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    background-color: transparent;
+    z-index: 15;
+}
+
+.headerz1{
+    position: absolute;
+    top:3%;
+    left: -100px;
+    background-color: transparent;
+    z-index: 10;
+
+}
+
+.kevin{
+    position: absolute;
+    bottom:0.1%;
+    left:-10%;
+    background-color: transparent;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.title{
+    font-size:36px;
+    border-color:transparent;
+    font-weight: bolder;
+    color:white;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.title2{
+    font-size:24px;
+    border-color:transparent;
+    font-weight: bolder;
+    color:white;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+.title3{
+    font-size:20px;
+    border-radius:15px;
+    color:white;
+    border: 3px solid white;
+    padding: 15px;
+    background-blend-mode: color;
+    background-color: transparent;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font-family: "Segoe UI Light", "Microsoft JhengHei Light", serif;
+}
+
+.title3:hover{
+    background-color: #817cff;
+}
+
+.title4{
+    font-size:14px;
+    border-radius:6px;
+    color:black;
+    border: 1.5px solid black;
+    padding: 5px;
+    background-blend-mode: color;
+    background-color: transparent;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.title4:hover{
+    background-color: #817cff;
+}
+
+.nav{
+    position: absolute;
+    top:3%;
+    right: 3%;
+    background-color: transparent;
+}
+
+/*.container{
+    position:relative;
+    background-color: transparent;
+}
+
+.container2 {
+    position: relative;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}*/
+
+/*.lineSS{
+    border-top:6px solid black;
+}
+
+.lineS{
+    border-top:4px solid black;
+}
+
+.lineDS{
+    border-top:2px dotted black;
+    z-index: +20;
+}
+
+.lines{
+    border-top:3px solid black;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: -200px;
+    text-align:center;
+    z-index: -20;
+}*/
+
+
+/* Clearfix (clear floats) */
+/*.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column1 {
+    float: left;
+    width: 7.2%;
+    text-align:center;
+    z-index: -20;
+}
+
+
+!* Clearfix (clear floats) *!
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.BPcenter2{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 200%;
+    text-align: center;
+}
+
+.BPcenter3{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}*/
+
